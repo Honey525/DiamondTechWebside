@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <style>
+    .showcase{
+      background-image: url(hearder-img.jpg);
+      height: 700px;
+      background-size: cover;
+    }
+    svg{
+     width: 35px;
+     padding: 10px;
+    }
+    </style>
+  
+ 
+<body>
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <img src="images.jpeg" alt=""  class="bi me-2 pl-2" id="image"></img>
+        <span class="fs-4">Diamond Tech</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a class="nav-link" aria-current="page"  href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#home">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#products">Our Products</a></li>
+        <li class="nav-item"><a class="nav-link"  href="#contact">Contact Us</a></li>
+      </ul>
+    </header>
+  </div>
+<section class="showcase" id="home">
+  <main class="container p-2">
+    <div class="position-relative overflow-hidden p-1 p-md-5 m-md-3 text-center">
+      <div class="col-md-6 p-lg-5 mx-auto my-5">
+        <h1 class="display-3 fw-bold text-dark">Welcome to <br> Diamond Tech</h1>
+        <h3 class="fw-normal text-dark mb-3">We are an ICT Cumpany Incoparatede in Zimbabwe and south Africa with a key line.</h3>
+        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Contact Us</button>
+      </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
+  </main>
+</section>
+<section class="about" id="about">
+  <div class="position-relative overflow-hidden p-3 p-md-1 m-md-3 text-center">
+    <div class="col-md-6 p-lg-6 mx-auto my-5">
+      <h1 class="display-5 fw-bold">About Us</h1>
+      <h3 class="text-muted mb-3">Our business modell is to partner with global ICT brand  since 2018. Founded by Fortune Makoni, we are a proudly youth owned company.</h3>
+      <button type="button" class="btn btn-light btn-lg px-4 me-md-2 fw-bold">Contact Us</button>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+</section>
+<section class="product p-5" id="products">
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+      <div class="h-100 text-bg-light rounded-3 text-center">
+        <h2 class="fs-1">Our Products</h2>
+      </div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="pc&leop.jpeg" alt="pc&leop.jpeg">
+            <div class="card-body">
+              <h5 class="card-title">PC & Leptop <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M128 32C92.7 32 64 60.7 64 96V352h64V96H512V352h64V96c0-35.3-28.7-64-64-64H128zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480H563.2c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2H19.2z"/></svg></h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button class="btn btn-outline-dark" type="button">Explore more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="printer.webp" alt="printer">
+            <div class="card-body">
+              <h5 class="card-title">Printers and Catrages  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zM432 248a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg></h5>
+              <p class="card-text">We are suppliers of the bigest PC and leptop brand such as Apple, HP, Lenovo, ect. We also supply PC and Leptop spare parts as such as screans and accessories.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button class="btn btn-outline-dark" type="button">Explore more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="sphone.webp" alt="" >
+            <div class="card-body">
+              <h5 class="card-title">Cell-Phone & Teblets<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M16 64C16 28.7 44.7 0 80 0H304c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H80c-35.3 0-64-28.7-64-64V64zM144 448c0 8.8 7.2 16 16 16h64c8.8 0 16-7.2 16-16s-7.2-16-16-16H160c-8.8 0-16 7.2-16 16zM304 64H80V384H304V64z"/></svg></h5>
+              <p class="card-text">We are leading retailer of cellphones and tablets of the world's leading brand such as Apple, Samsung, Huawei and many more. Our phone and other brand new or second hand.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button class="btn btn-outline-dark" type="button">Explore more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+</section>
+<section class="contact p-5" id="contact">
+  <div class="row align-items-md-stretch">
+    <div class="col-md-6">
+      <div class="h-100 p-2 text-bg-light rounded-3 text-center">
+        <h2 class="fs-1">Contact Us</h2>
+        <p class="fs-2">Reach out to us by filling in the contact form or sending us an email on info@diamondtech.com.</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+        <div class="col-md-10 mx-auto col-lg-5">
+          <form class="p-4 p-md-5 border rounded-3 ">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="enter your email address">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Enter your messege hear</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Contact us</button>
+            <hr class="my-4">
+            <small class="text-body-secondary">By contacting us you agree to our terms of use.</small>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="text-body-secondary py-5">
+<div class="container">
+  <p class="float-end mb-1">
+    <a href="#">Back to top</a>
+  </p>
+  <p class="mb-1">Hanifa Jacob Phafoli&copy;Melsoft Bootstrap project</p>
+</div>
+</footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
